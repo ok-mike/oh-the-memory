@@ -1,0 +1,49 @@
+
+#memory-board{
+    width: 250px;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;}
+
+#memory-board div {
+    height: 48px;
+    width: 48px;
+    margin: 4px;
+    border-radius: 4px; }
+
+.gameinfo{
+    padding: 5px 30px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(236, 197, 203);
+}
+
+.game{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.game .highscore{
+    color: red;
+}
+
+form{
+padding: 10px;
+border-radius: 4px;
+}
+
+form input{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+form button{
+margin-top: 16px;
+}
