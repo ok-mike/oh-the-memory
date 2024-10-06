@@ -45,6 +45,18 @@ app.get( "/score", async (req, res) => {
   }
 );
 
+// Use the following SQL to create the necessary table in
+// PGAdmin:
+
+// CREATE TABLE IF NOT EXISTS public.scores
+// (
+//     pk serial NOT NULL,
+//     score integer,
+//     playername text COLLATE pg_catalog."default",
+//     verdict text COLLATE pg_catalog."default",
+//     CONSTRAINT scores_pkey PRIMARY KEY (pk)
+// );
+
 
 // JavaScript application posts player score
 
