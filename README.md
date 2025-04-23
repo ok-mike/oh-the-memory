@@ -9,5 +9,3 @@ high-scores.
 
 ![Screenshot](https://github.com/Dosflange/oh-the-memory/blob/main/screenshot.png)
 
-There's a playable version on:
-https://picwok.com/memory
